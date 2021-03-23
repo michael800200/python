@@ -4,6 +4,7 @@
 import time
 import board
 import adafruit_dht
+import os
 
 # 訊號腳位 GPIO 17 >>>不懂import board但為什麼是看GPIO的腳位
 dhtDevice = adafruit_dht.DHT22(board.D17)
